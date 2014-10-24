@@ -1,0 +1,3 @@
+NameError: name 'loat' is not defined
+ValueError: math domain error
+ValueError: could not convert string to float: dsafsdf

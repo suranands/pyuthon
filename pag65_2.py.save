@@ -1,0 +1,25 @@
+rite a program 
+# which repeatedly reads numbers until the user enters 'done'. 
+# once 'done' is entered, print out the total, count, and average of the numbers.
+# if the user enters anything other than a number or done,
+# detect their mistake using try and except 
+# and print an error message and skip to the next number.
+
+prompt = 'Enter a number: '
+total = 0
+count = 0
+average = 0
+
+while True:
+        s = raw_input(prompt)
+        if s.lower() == 'done':
+                break
+        try:
+                total += float(s)
+                count += 1
+                average = total / count
+        except ValueError:
+                print "Bad number. Try again"
+print 'You entered %s numbers whose total is %s and average is %s.' % (str(count), str(total), str(average))
+
+
