@@ -1,0 +1,2 @@
+Syntax:		the rules that describe valid combinations of python symbols
+Semantics:	the meaning of a combination of python symbols
